@@ -1,7 +1,7 @@
 .btn {
   text-decoration: none;
-  border: 2px solid $color-secondary;
-  border-radius: 100px;
+  border: 2px solid $color-secondary-two;
+  border-radius: 10px;
   font-size: 2rem;
   width: 19rem;
   padding: 0.5rem 1rem;
@@ -9,12 +9,12 @@
 
   &--full {
     color: $grey-dark;
-    background-color: $color-secondary;
+    background-color: $color-secondary-two;
     text-transform: uppercase;
   }
 
   &--ghost {
-    color: $color-secondary;
+    color: $color-secondary-two;
   }
 
   &--full:hover,
@@ -22,8 +22,8 @@
     transform: translateY(-3px);
     box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.5);
     color: #fff;
-    background-color: $color-secondary-dark;
-    border-color: $color-secondary-dark;
+    background-color: $color-secondary-two-dark;
+    border-color: $color-secondary-two-dark;
   }
 
   &--full:active,
@@ -43,7 +43,7 @@
     font-size: 1.3rem;
     text-align: center;
     padding: 0.3rem 0.6rem;
-    border-radius: 100px;
+    border-radius: 10px;
     transition: all 0.2s;
     outline: none;
   }
